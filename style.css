@@ -1,0 +1,64 @@
+/* Universal Styles */
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Basic Styles */
+html {
+    font-size: 62.5%;
+    background: #fff;
+}
+
+body {
+    background-color: #efefee;
+    margin: 2.5rem 1rem;
+    text-align: center;
+    font-family: "Source Sans Pro", serif;
+    font-size: 1.8rem;
+}
+
+#main h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+
+#main p {
+    margin-bottom: 3rem;
+}
+
+/* Hero Section */
+#img-div {
+    background-color: #fff;
+    margin: 0 2rem;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div figcaption {
+    margin-top: 1.3rem; 
+}
+
+@media only screen and (max-width: 768px) {
+    #img-div figcaption {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    #image {
+        max-width: 95%;
+        height: 90%;
+    }
+
+    #img-div figcaption {
+        padding: 0 3rem;
+    }
+}

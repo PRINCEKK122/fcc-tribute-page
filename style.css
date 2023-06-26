@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* Basic Styles */
 html {
     font-size: 62.5%;
@@ -39,16 +38,19 @@ body {
 #image {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 #img-div figcaption {
     margin-top: 1.3rem; 
+    line-height: 1.2;
+    padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
     #img-div figcaption {
         font-size: 1.4rem;
-        padding: 0 1rem;
+        padding: 0 1rem 1rem;
     }
 }
 
@@ -62,3 +64,70 @@ body {
         padding: 0 3rem;
     }
 }
+
+/* Timeline Section */
+#tribute-info {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+#tribute-info h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin: 5rem auto;
+}
+
+#tribute-info ul {
+    text-align: left;
+    margin: 0 auto 5rem;
+    padding: 0 4rem;
+    max-width: 60rem;
+    line-height: 1.2;
+    list-style: disc;
+}
+
+#tribute-info li {
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+    word-spacing: 2px; 
+    font-weight: 500;
+}
+
+#tribute-info span {
+    font-weight: 600;
+}
+
+/* Blockquote section  */
+blockquote {
+    margin: 4rem 0;
+    font-style: italic;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+cite {
+    margin: 1rem 0;
+    position: relative;
+    bottom: 2rem;
+}
+
+@media only screen and (min-width: 850px) {
+    blockquote {
+        padding: 0;
+        padding-left: 2rem;
+    }
+}
+
+/* Footer Section */
+footer h3 {
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 850px) {
+    footer h3 {
+        padding: 0 2rem 3rem;
+    }
+}
+
+
